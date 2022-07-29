@@ -1,0 +1,40 @@
+---
+title: Grouped Tabset Example
+format: html
+filters: 
+  - grouped-tabsets
+---
+
+This is a minimal example of the [grouped tabsets extension](https://github.com/quarto-ext/grouped-tabsets) for [Quarto](https://quarto.org) documents.
+
+Try clicking on the R or Python tab (note the related tab below also switches).
+
+::: {.panel-tabset group="language"}
+
+## R
+
+R-specific examples here.
+
+## Python
+
+Python-specific examples here.
+
+:::
+
+If there are repeated groups on the same page, their tabs are synced:
+
+::: {.panel-tabset group="language"}
+
+## R
+
+R-specific examples here.
+
+## Python
+
+Python-specific examples here.
+
+:::
+
+
+Note that in a website or book, grouped tabsets persist across multiple pages within the site.
+
