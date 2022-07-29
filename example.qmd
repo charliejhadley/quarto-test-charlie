@@ -1,6 +1,6 @@
 ---
 title: Rladies quarto Presentation
-format: html
+format: rladies-revealjs
 ---
 
 Test

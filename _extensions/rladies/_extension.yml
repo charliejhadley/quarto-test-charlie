@@ -4,5 +4,5 @@ version: 0.0.1
 contributes:
   formats:
     revealjs:
-       theme: [default]
+       theme: [default, rladies.scss]
   
