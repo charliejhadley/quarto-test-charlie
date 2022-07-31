@@ -1,8 +1,0 @@
-title: RLadies quarto Presentation
-author: Charlotte Hadley
-version: 0.0.1
-contributes:
-  formats:
-    revealjs:
-       theme: [default, rladies.scss]
-  

@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+
+//** Colors from rladies xaringan format
+$body-color:            #000 !default;
+$link-color:            #88398a !default;
+$background-purple: #562457;
+
+//** Remark.js things
+
+.middle {
+    vertical-align: middle;
+}
+  
+.center {
+    text-align: center;
+}
+
+//** Fonts
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+$font-family-sans-serif:  'Lato', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif !default;
+
+//** --- START xaringan defaults with rladies values
+
+.inverse  {
+  data-background: #562457;
+  background-color: blue;
+  
+}
+
+.inverse, .inverse h1, .inverse h2, .inverse h3, .inverse a, inverse a > code {
+  color: #fff;
+}
+
+//** --- END
+
+
+
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #562457;
+}
+a, a > code {
+  color: #88398a;
+}
+.remark-code-line-highlighted { background-color: rgba(136, 57, 138, 0.3); }
+
+
+
+
+h1, h2, h3 { font-family: 'Yanone Kaffeesatz'; }
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', 'Lucida Console', Monaco, monospace; color: #88398A}
